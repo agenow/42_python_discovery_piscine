@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+num1 = int(input())
+num2 = int(input())
+print(num1, "x", num2, "=", num1 * num2)
+if num1 * num2 > 0:
+	print("product is positive")
+elif num1 * num2 < 0:
+	print("product is negative")
+else:
+	print("product is both positive and negative")
